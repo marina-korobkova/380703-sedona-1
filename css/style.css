@@ -1,15 +1,31 @@
 body {
   	margin: 0;
   	padding: 0;
-	font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
   	font-size: 14px;
-  	line-height: 24px;
-  	font-weight: 700;
+  	line-height: 26px;
+  	font-weight: 400;
   	color: #000000;
   	text-transform: uppercase;
 }
 a {
 	text-decoration: none;
+}
+.button {
+  	font: inherit;
+  	text-align: center;
+  	color: #ffffff;
+  	vertical-align: middle;
+  	text-transform: uppercase;
+  	background-color: #81b3d2;
+  	border: none;
+}
+.button:hover,
+.button:focus {
+  	background-color: #669ec0;
+}
+.button:active {
+	background-color: #5496bd;
 }
 .main-navigation {
 	font-size: 14px;
@@ -26,6 +42,14 @@ a {
 .site-navigation a:focus {
 	color: #82b4cf;
 }
+.intro-image {
+	background-color: #d9eaf2;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+}
+.intro-text-title {
+	font-size: 21px;	
+}
 .reason-list {
 	list-style: none;
 }
@@ -35,3 +59,13 @@ a {
 .reason-item h3 {
 	font-size: 21px;
 }
+.features-list {
+	list-style: none;
+}
+.footer-social {
+  text-align: center;
+}
+.footer-social ul {
+	list-style: none;
+}
+
