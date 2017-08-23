@@ -1,0 +1,37 @@
+body {
+  	margin: 0;
+  	padding: 0;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+  	font-size: 14px;
+  	line-height: 24px;
+  	font-weight: 700;
+  	color: #000000;
+  	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+}
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	background-color: #ffffff;
+}
+.site-navigation {
+	list-style: none;
+}
+.site-navigation a {
+	color: #000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #82b4cf;
+}
+.reason-list {
+	list-style: none;
+}
+.reason-item {
+	text-align: center;
+}
+.reason-item h3 {
+	font-size: 21px;
+}
